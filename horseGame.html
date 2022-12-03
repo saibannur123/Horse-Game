@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Horse Game</title>
+    <link rel="stylesheet" href="horseGame.css">
+<link href="https://fonts.googleapis.com/css?family=B612+Mono&display=swap" rel="stylesheet">	
+	<script src="horseGame.js"></script> 
+  </head>
+  
+  
+	<body onload="drawCanvas()">
+	  
+	 
+		<canvas id="canvas" style="display:none"></canvas>
+
+			
+		
+			
+		   
+		
+	
+		<h1 id="title"><span id="lost">The Lost</span><br> &nbsp;HORSE</h1>
+		
+		<button id="home" onclick="menu()" style="display:none">back to menu</button>
+		<div id="allthethings">
+  
+			<div id="play" onclick="levelSelection()"><p>PLAY</p></div>
+			<div id="instructions" onclick="instruction()"><p>INSTRUCTIONS</p>
+			
+			
+			</div>
+			<div id="options" onclick="options()"><p>CREDITS</p></div>
+			<div id="menus" style="display:none" onclick="menu()"><p>BACK TO THE MENU</p></div>
+  
+		</div>
+  
+
+		<div id="level1" onclick="gamePlay(1)"><p>Level 1</p></div>
+		<div id="level2" onclick="gamePlay(2)"><p>Level 2</p></div>
+		<div id="level3" onclick="gamePlay(3)"><p>Level 3</p></div>
+		<div id="level4" onclick="gamePlay(4)"><p>Level 4</p></div>
+		
+		
+		<div id="instr">
+<h1 id="inst">Instructions</h1>
+Welcome to The Lost Horse!<br>
+You are a horse that has lost his way back home. 
+Run away from the creatures before they stop you. Don't hit the 
+obstacles, they hurt! Complete all the levels to win. Good luck
+getting home!<br><br><br>
+<div id="controls">
+Controls:<br>
+W to move up<br>
+A to move left<br>
+S to move down<br>
+D to move right<br>
+</div>
+		</div>
+		
+		<div id="gameOver">
+		<h1 id="congrats"><span id="bold">Congrats!</span><br> You returned home safely!</h1>
+		<img id="horse-image" src="images/orange_horse_right2.png" alt="orange horse">
+		<button id="homes" onclick="menu()" style="display:none">Go Home</button>
+		
+		</div>
+			
+	
+</body>
+  
+</html>

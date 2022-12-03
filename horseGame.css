@@ -1,0 +1,438 @@
+body{
+  background-color:#8ec1da;
+  margin:0;
+  /* BackGround image from: https://www.backgroundcheckall.com/2d-game-background-1/ */
+  background:  url(images/menu.png) no-repeat fixed;
+  background-size: cover;
+
+}
+
+#title{
+	text-align:center;
+	font-size: 140px;
+	/*text-align:left;
+	margin-left:220px;
+	margin-top:200px;*/
+	font-family: 'B612 Mono', monospace;
+background: rgba(0,0,0,0.211);
+	
+	
+}
+
+#gameOver{
+		background-color: #f1f1f1;
+	border: thick solid black;
+	  padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+	position: relative;
+	top: -300px;
+	width: 1000px;
+	height: 600px;
+	display:none;
+	 background:  url(images/sky.png) no-repeat;
+  background-size: cover;
+  font-family: 'B612 Mono', monospace;
+  text-align:Center;
+}
+
+#homes{
+  height:50px;
+  width:500px;
+  background:#006680;
+  position:absolute;
+  bottom:105px;
+  right:240px;
+  text-align:center;
+  font-size:30px;
+  font-family:shadows into light;
+  color:orange;
+   -webkit-transition:0.5s;
+  transition:0.5s;
+  cursor:pointer;
+  
+	
+}
+#horse-image{
+	width:180px;
+	height:150px;
+	
+}
+#congrats{
+text-align:center;	
+	
+}
+
+#bold{
+font-size: 50px;	
+
+}
+
+#allthethings {
+  width:0px;
+  height:0px;
+  
+  border-left: 300px solid transparent;
+  border-right:300px solid transparent;
+  border-top: 300px solid transparent;
+  
+  position:relative;
+  margin:auto;
+  
+  left:2px;
+  
+}
+
+#play {
+  
+  position:relative;
+  bottom:330px;
+  right:300px;
+  height:50px;
+  width:600px;
+  background:#006680;
+  text-align:center;
+  font-size:30px;
+ background-size: 1px 300%;
+ -webkit-transition:0.5s;
+  transition:0.5s;
+  color:orange;
+  font-family:shadows into light;
+  
+  cursor:pointer;
+}
+
+#play:hover {
+  background:#7A0000;
+  color:white;
+/*-webkit-transform:rotate(-1deg);
+  transform:rotate(-2deg);*/
+  
+  
+}
+
+#instructions:hover {
+  background:#7A0000;
+  color:white;
+   
+ /* -webkit-transform:rotate(-2deg);
+  transform:rotate(-2deg);*/
+  
+  
+}
+
+
+
+#options:hover {
+  background:#7A0000;
+  color:white;
+ /* -webkit-transform:rotate(-2deg);
+  transform:rotate(-2deg);*/
+  
+}
+
+
+
+
+
+
+#instructions {
+  height:50px;
+  width:500px;
+  background:#006680;
+  position:relative;
+  bottom:345px;
+  right:240px;
+  text-align:center;
+  font-size:30px;
+  font-family:shadows into light;
+  color:orange;
+   -webkit-transition:0.5s;
+  transition:0.5s;
+  cursor:pointer;
+  
+   
+  
+}
+
+#play p {
+  position:relative;
+  top:5px;
+  right:9px;
+  
+}
+
+#menus p {
+  position:relative;
+  top:5px;
+  right:9px;
+  
+}
+
+
+#instructions p {
+  position:relative;
+  top:5px;
+  right:9px;
+  
+}
+
+#options {
+  
+  height:50px;
+  width:400px;
+  background:#006680;
+  position:relative;
+  bottom:360px;
+  right:200px;
+  font-size:30px;
+  text-align:center;
+  font-family:shadows into light;
+  color:orange;
+   -webkit-transition:0.5s;
+  transition:0.5s;
+  cursor:pointer;
+  
+}
+
+#options p {
+  position:relative;
+  top:5px;
+  right:4px;
+  
+}
+
+
+
+
+
+#menus:hover {
+  background:#7A0000;
+  color:white;
+ /* -webkit-transform:rotate(-2deg);
+  transform:rotate(-2deg);*/
+  
+}
+
+
+
+
+
+
+#menus{
+  height:50px;
+  width:500px;
+  background:#006680;
+  position:relative;
+  bottom:345px;
+  right:240px;
+  text-align:center;
+  font-size:30px;
+  font-family:shadows into light;
+  color:orange;
+   -webkit-transition:0.5s;
+  transition:0.5s;
+  cursor:pointer;
+  
+   
+  
+}
+#menu p {
+  position:relative;
+  top:5px;
+  right:9px;
+  
+}
+
+#level1{
+	display:none;
+  text-align:center;
+  position:relative;
+  bottom:230px;
+  left:10px;
+  height:50px;
+  width:300px;
+  margin-right:auto;
+  margin-left:auto;
+  background:#006680;
+  
+  font-size:30px;
+ background-size: 1px 300%;
+ -webkit-transition:0.5s;
+  transition:0.5s;
+  color:orange;
+  font-family:shadows into light;
+  
+  cursor:pointer;
+}
+
+#level1 p {
+position:relative;
+  top:5px;
+  right:9px;
+}
+
+#level1:hover {
+  background:#7A0000;
+  color:white;
+ /* -webkit-transform:rotate(-2deg);
+  transform:rotate(-2deg);*/
+  
+}
+
+
+#level2{
+	display:none;
+  text-align:center;
+  position:relative;
+  bottom:230px;
+  left:10px;
+  height:50px;
+  width:300px;
+  margin-right:auto;
+  margin-left:auto;
+  background:#006680;
+  
+  font-size:30px;
+ background-size: 1px 300%;
+ -webkit-transition:0.5s;
+  transition:0.5s;
+  color:orange;
+  font-family:shadows into light;
+  
+  cursor:pointer;
+}
+
+#level2 p {
+position:relative;
+  top:5px;
+  right:9px;
+}
+
+#level2:hover {
+  background:#7A0000;
+  color:white;
+ /* -webkit-transform:rotate(-2deg);
+  transform:rotate(-2deg);*/
+  
+}
+
+
+#level3{
+	display:none;
+  text-align:center;
+  position:relative;
+  bottom:240px;
+  left:10px;
+  height:50px;
+  width:300px;
+  margin-right:auto;
+  margin-left:auto;
+  background:#006680;
+  
+  font-size:30px;
+ background-size: 1px 300%;
+ -webkit-transition:0.5s;
+  transition:0.5s;
+  color:orange;
+  font-family:shadows into light;
+  
+  cursor:pointer;
+}
+
+#level3 p {
+position:relative;
+  top:5px;
+  right:9px;
+}
+
+#level3:hover {
+  background:#7A0000;
+  color:white;
+ /* -webkit-transform:rotate(-2deg);
+  transform:rotate(-2deg);*/
+  
+}
+
+#level4{
+	display:none;
+  text-align:center;
+  position:relative;
+  bottom:240px;
+  left:10px;
+  height:50px;
+  width:300px;
+  margin-right:auto;
+  margin-left:auto;
+  background:#006680;
+  
+  font-size:30px;
+ background-size: 1px 300%;
+ -webkit-transition:0.5s;
+  transition:0.5s;
+  color:orange;
+  font-family:shadows into light;
+  
+  cursor:pointer;
+}
+
+#level4 p {
+position:relative;
+  top:5px;
+  right:9px;
+}
+
+#level4:hover {
+  background:#7A0000;
+  color:white;
+ /* -webkit-transform:rotate(-2deg);
+  transform:rotate(-2deg);*/
+  
+}
+
+
+#canvas{
+	background-color: #f1f1f1;
+	border: thick solid black;
+	  padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+	
+}
+
+
+#instr{
+	border: 20px solid black;
+	position:relative;
+	 padding-left: 0;
+    padding-right: 0;
+	padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+	display: none;
+	width: 1000px;
+	height: 100&;
+	font-size:40px;
+	background-color:#e2e2e2;
+	top: -100px;
+	text-align:center;
+	font-family: 'B612 Mono', monospace;
+}
+
+#inst{
+	font-size:70px;
+	
+}
+#controls{
+	 padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+border: 1px dashed black;
+}
+
+
