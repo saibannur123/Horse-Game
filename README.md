@@ -6,3 +6,7 @@ A horse has disappeared from his barn. It is your responsibility to make sure he
 
 
 This game has 5 levels, where the difficulty of the game increases as you climb up the levels. The first level starts off very easy, but once you get to the last level, the games gets much more challenging.  
+
+
+## Screenshots
+
