@@ -10,3 +10,5 @@ This game has 5 levels, where the difficulty of the game increases as you climb 
 
 ## Screenshots
 
+<img width="1009" alt="GamePlay" src="https://user-images.githubusercontent.com/58525723/208776079-bdba4181-88ab-4328-9550-01598038b9af.png">
+
