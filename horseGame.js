@@ -1,7 +1,7 @@
 /***************************************************************************************
 * Name:       		The Lost Horse 
 * Author:     		Sai Bannur & Nattan Telmer
-* Date:       	 	June, 17, 2019
+* Date:       	 	June, 17, 2020
 * Purpose:    		To make a fun horse game where little girls would love to play
 * Compatibility: 	Does not work on Internet Explorer
 ****************************************************************************************/
